@@ -33,12 +33,12 @@ Description : Learning CSS.
         .inline-demo {
             /*Change the display to see all elements of this type in a line.*/
             margin: 15px;
-            display: inline;
+            display: inline-block;
         }
 
         .block-demo {
             /*Ensure .block-demo centers its text.*/
-            align-content: center;
+            text-align: center;
         }
 
         /*
@@ -58,7 +58,7 @@ Description : Learning CSS.
 
         .block-demo > .inline-demo:nth-child(2) {            
             color: blue;
-            float: middle;
+            float: inherit;
         }
 
         /* Add your css for the thrid child here. */
