@@ -1,9 +1,9 @@
 <!--
 =========================================================
-Name        : index.html
+Name        : old-school.html
 Assignment  : Lab 3 Exercise B
-Author(s)   : Mahdi Ansari, William Arthur Philip Louis
-Submission  : May 21, 2030
+Author(s)   : Akaash Aujla, Ricky Huynh
+Submission  : Jan 31, 2024
 Description : Understanding Old-School HTML Layouts.
 =========================================================
 -->
@@ -14,20 +14,16 @@ Description : Understanding Old-School HTML Layouts.
     <style>
         table { width: 100%; }
         td { vertical-align: top;}
-        /*
         td { border: 1px dashed gray; } 
-        */
         #header, #footer { background-color: #f2f2f2; text-align: center; padding: 10px; }
         #menu { width: 150px; background-color: #e6e6e6; }
         #main { padding: 15px; }
         #footer { position: fixed; bottom: 0; width: 100%;}
 
         .news-item { padding: 10px; }
-        /*
         .large { width: 100%; }
         .medium { width: 70%; }
         .small { width: 30%; }
-        */
     </style>
 </head>
 <body>
@@ -65,6 +61,7 @@ Description : Understanding Old-School HTML Layouts.
                     </td>
                 </tr>
                 <tr>
+                    <table>
                     
                     <td class="small news-item" colspan="2">
                         <!-- Small news item -->
@@ -108,8 +105,10 @@ Description : Understanding Old-School HTML Layouts.
                     
                 </tr>
             </table>
+            </table>
             
         </td>
+    </table>
     </tr>
     <tr>
         <td colspan="2" id="footer">
